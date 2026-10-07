@@ -1,0 +1,65 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+token*.json
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Generated media, account manifests, and Manim caches
+/audio/
+/renders/
+/media/
+/media_jobs/
+/scripts/narration.json
+/components/assets/
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.tar
+*.gz
+*.log
+*.tmp
+
+# Local notes, backups, and downloaded upstream materials
+/local/
+/research/src/
+/research/background/
+/research/openai-math/
+/research/announce.html
+/research/tree.txt
+/REPORT.md
+*_backup.py
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp

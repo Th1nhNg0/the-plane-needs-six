@@ -1,0 +1,7 @@
+faster-whisper==1.2.1
+manim==0.21.0
+numpy==2.5.3
+pillow==12.3.0
+pyloudnorm==0.2.0
+soundfile==0.14.0
+sympy==1.14.0

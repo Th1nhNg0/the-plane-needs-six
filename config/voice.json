@@ -1,0 +1,11 @@
+{
+  "model_id": "eleven_v4",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_name": "George (premade): warm British storyteller",
+  "output_format": "mp3_44100_128",
+  "voice_settings": {"stability": 0.55, "similarity_boost": 0.75, "style": 0.15, "use_speaker_boost": true, "speed": 0.95},
+  "use_context": true,
+  "loudness_lufs": -18.0,
+  "beat_seconds": {"[beat]": 0.6, "[beat2]": 1.4},
+  "scene_tail_seconds": 1.0
+}

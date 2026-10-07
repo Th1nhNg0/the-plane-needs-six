@@ -1,0 +1,32 @@
+{
+  "model_id": "music_v2_5",
+  "output_format": "mp3_48000_192",
+  "force_instrumental": true,
+  "max_session_credits": 30000,
+  "common_prompt": "Original instrumental ambient chamber documentary underscore for a long mathematical explainer with continuous spoken narration. Modern clean studio production, warm felt piano and very soft sustained pads, delicate light strings. Sparse notes, low note density, restrained dynamics, leave space for the voice. D major or its relative B minor, approximately 64 BPM with no drums or percussion. No vocals, humming, choir, speech, sound effects, dramatic hits, drops, crescendos, busy arpeggios or prominent lead melody. Gently evolving harmony, soft transients, transparent midrange, no sub bass. Maintain an even quiet texture throughout, suitable for a long crossfaded loop without an obvious ending.",
+  "chapters": [
+    {"chapter": 0, "name": "curiosity", "length_ms": 90000, "mood": "Quiet curiosity and open possibility; a few widely spaced warm piano notes above an airy pad. A welcoming, thoughtful opening, without suspense or drama.", "level_db": -1},
+    {"chapter": 1, "name": "colouring_game", "length_ms": 150000, "mood": "Light, playful intellectual curiosity for a colouring puzzle. Warm felt piano with small gentle motifs, buoyant harmony, a little more movement while remaining sparse and calm.", "level_db": 0},
+    {"chapter": 2, "name": "geometry", "length_ms": 180000, "mood": "Focused discovery as geometric shapes become a graph. Soft piano and muted string harmonics, measured harmonic movement, calm concentration, a touch of anticipation without tension or a climax.", "level_db": 0},
+    {"chapter": 3, "name": "history", "length_ms": 180000, "mood": "Patient reflective discovery, tracing a mathematical idea through decades. Warm piano, delicate strings and gently shifting pads, quietly hopeful but emotionally restrained.", "level_db": -1},
+    {"chapter": 4, "name": "abstraction", "length_ms": 150000, "mood": "Spacious contemplative abstraction, exploring why a problem is difficult. Very sparse piano and soft suspended pad harmonies, thoughtful and slightly mysterious without becoming ominous.", "level_db": -1.5},
+    {"chapter": 5, "name": "proof", "length_ms": 240000, "mood": "Steady quiet concentration for a sustained rigorous mathematical proof. Extremely sparse felt piano, soft warm strings and pads, patient harmonic progression, understated forward motion, no dramatic resolution or build-up.", "level_db": -1},
+    {"chapter": 6, "name": "ai_context", "length_ms": 150000, "mood": "Sober measured reflection about artificial intelligence and uncertainty. Nearly weightless warm pads, occasional low soft piano notes, grounded and serious, calm, no futuristic noises or technological effects.", "level_db": -3},
+    {"chapter": 7, "name": "verification", "length_ms": 150000, "mood": "Clear careful concentration while discussing evidence and mathematical verification. Very restrained felt piano and thin sustained string harmonics, calm intellectual precision and humility, sober and spacious.", "level_db": -3},
+    {"chapter": 8, "name": "resolution", "length_ms": 150000, "mood": "Gentle understated resolution and thoughtful optimism, for concluding a mathematical documentary and its sources card. Warm piano and a soft luminous pad, open major harmony, reflective rather than triumphant, no final flourish.", "level_db": -1}
+  ],
+  "mix": {
+    "sample_rate": 48000,
+    "voice_to_music_db": 23,
+    "pause_lift_db": 4,
+    "duck_attack_s": 0.12,
+    "duck_release_s": 1.2,
+    "anticipation_s": 0.06,
+    "chapter_crossfade_s": 3,
+    "loop_crossfade_s": 8,
+    "intro_fade_s": 2,
+    "outro_fade_s": 6,
+    "target_lufs": -16,
+    "true_peak_db": -2.5
+  }
+}
